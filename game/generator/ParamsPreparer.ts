@@ -1,5 +1,5 @@
-import {UserUtils} from 'user-utils';
-import {ObjectUtils} from 'data-structures-utils';
+import {clone} from 'lodash';
+import {UserUtils} from 'nika-user-utils';
 import {Code as GameCode, Security as GameCodeSecurity} from 'ma-games-codes-names/codes';
 
 import {Params} from './Generator';
@@ -9,7 +9,7 @@ export class ParamsPreparer {
      * @throws {ParamsPreparerError}
      */
     static prepare(params:Params):Params|never {
-        params = ObjectUtils.getClone(params);
+        params = clone(params);
 
         params.userId = this.validateUserId(params.userId);
 

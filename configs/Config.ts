@@ -1,4 +1,4 @@
-import {GlobalConfig} from 'global-config';
+import {GlobalConfig} from 'nika-global-config';
 
 export class Config {
     private static readonly DEBUG_MODE:boolean = GlobalConfig.DEBUG_MODE;

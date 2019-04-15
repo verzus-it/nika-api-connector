@@ -9,14 +9,15 @@
   "author": "Balov Bohdan",
   "license": "ISC",
   "devDependencies": {
+    "@types/lodash": "^4.14.123",
     "@types/core-js": "^2.5.0",
     "@types/node": "^10.11.6",
     "tslint": "^5.11.0"
   },
   "dependencies": {
-    "user-utils": "file:../user-utils",
-    "data-structures-utils": "file:../../lib/data-structures-utils",
-    "global-config": "file:../../lib/global-config",
-    "ma-games-codes-names": "file:../ma-games-codes-names"
+    "lodash": "^4.17.11",
+    "nika-user-utils": "git+https://github.com/balovbohdan/nika-user-utils#0.0.1",
+    "nika-global-config": "git+https://github.com/balovbohdan/nika-global-config#0.0.1",
+    "ma-games-codes-names": "git+https://github.com/balovbohdan/ma-games-codes-names#0.0.1"
   }
 }

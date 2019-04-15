@@ -1,6 +1,6 @@
-import {UserUtils} from 'user-utils';
+import {clone} from 'lodash';
+import {UserUtils} from 'nika-user-utils';
 
-import {ObjectUtils} from 'data-structures-utils';
 import {Config} from '../../configs';
 
 type Params = {
@@ -63,7 +63,7 @@ export class Generator {
     }
 
     private static prepareParams(params:Params):Params {
-        params = ObjectUtils.getClone<Params>(params);
+        params = clone(params);
 
         params.userId = this.validateUserId(params.userId);
 
