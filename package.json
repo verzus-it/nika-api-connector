@@ -16,8 +16,8 @@
   },
   "dependencies": {
     "lodash": "^4.17.11",
-    "nika-user-utils": "git+https://github.com/balovbohdan/nika-user-utils#0.0.1",
-    "nika-global-config": "git+https://github.com/balovbohdan/nika-global-config#0.0.1",
-    "ma-games-codes-names": "git+https://github.com/balovbohdan/ma-games-codes-names#0.0.1"
+    "nika-user-utils": "git+https://github.com/nika-ai/nika-user-utils#0.0.1",
+    "nika-global-config": "git+https://github.com/nika-ai/nika-global-config#0.0.1",
+    "ma-games-codes-names": "git+https://github.com/nika-ai/ma-games-codes-names#0.0.1"
   }
 }
