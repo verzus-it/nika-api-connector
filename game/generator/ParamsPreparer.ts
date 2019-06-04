@@ -1,5 +1,7 @@
 import {clone} from 'lodash';
 import {UserUtils} from 'nika-user-utils';
+
+// @ts-ignore
 import {Code as GameCode, Security as GameCodeSecurity} from 'ma-games-codes-names/codes';
 
 import {Params} from './Generator';
