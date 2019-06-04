@@ -1,3 +1,4 @@
+// @ts-ignore
 import {Code as GameCode} from 'ma-games-codes-names/codes';
 
 import {Config} from '../../../configs';
