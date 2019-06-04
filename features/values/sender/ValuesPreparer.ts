@@ -1,8 +1,6 @@
 import {clone} from 'lodash';
 import {UserUtils} from 'nika-user-utils';
-
-import {Code as GameCode} from 'ma-games-codes-names/codes';
-import {Security as GameCodeSecurity} from 'ma-games-codes-names/codes';
+import {Code as GameCode, Security as GameCodeSecurity} from 'ma-games-codes-names/codes';
 
 import {Values} from './Sender';
 
