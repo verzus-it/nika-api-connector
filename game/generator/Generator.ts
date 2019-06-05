@@ -1,3 +1,5 @@
+import {fetch} from 'whatwg-fetch';
+
 // @ts-ignore
 import {Code as GameCode} from 'ma-games-codes-names/codes/Code';
 

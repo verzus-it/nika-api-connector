@@ -1,4 +1,5 @@
 import {clone} from 'lodash';
+import {fetch} from 'whatwg-fetch';
 import {UserUtils} from 'nika-user-utils';
 
 import {Config} from '../../configs';
