@@ -4,7 +4,7 @@ export class Config {
     private static readonly DEBUG_MODE:boolean = GlobalConfig.DEBUG_MODE;
 
     static readonly API_URL = Config.DEBUG_MODE
-        ? 'http://localhost:9009/'
+        ? 'http://localhost:9999/'
         : 'https://nika-ann.herokuapp.com/';
 
     static readonly GENERATE_GAME = Config.API_URL + 'generate-game';
